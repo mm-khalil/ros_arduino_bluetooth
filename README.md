@@ -10,11 +10,11 @@ After burning code in controller again connect Rx and Tx pins to proper place an
 ### INSTALL:
 `sudo apt-get install ros-indigo-rosserial-arduino sudo apt-get install ros-indigo-rosserial`
 ### INSTALL CATKIN WS:
-`cd /src 
-git clone https://github.com/ros-drivers/rosserial.git 
-cd 
-catkin_make 
-catkin_make install`
+`cd /src`
+`git clone https://github.com/ros-drivers/rosserial.git `
+`cd `
+`catkin_make `
+`catkin_make install`
 ### INSTALL ROS LIB:
 `cd /libraries rm -rf ros_lib rosrun rosserial_arduino make_libraries.py`
 ### INSTALL ARDUINO LIB:
